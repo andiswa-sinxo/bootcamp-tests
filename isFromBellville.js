@@ -5,3 +5,10 @@ function isFromBellville(registration){
       return false
     }
   }
+  function isFromBellville(registration){
+    if(registration.startsWith('CA')){
+      return false
+    }else {
+      return true
+    }
+  }
