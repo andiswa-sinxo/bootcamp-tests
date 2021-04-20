@@ -1,9 +1,8 @@
 describe('testing the isFromBellville' , function(){
-    it('is taking a registration no and returning true ' , function(){
-        assert.equal(isFromBellville('CY'), true);
+    it('it will return true if the registration number is from Bellville ' , function(){
+        assert.equal(isFromBellville('CY 123'), true);
     });
-    it('is taking a registration no and returning false ' , function(){
-        assert.equal(isFromBellville('CA'), false);
+    it('it will return false if the registration number is from Bellville ' , function(){
+        assert.equal(isFromBellville('CA 123'), false);
     });
-
 });
