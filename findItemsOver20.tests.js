@@ -5,7 +5,7 @@
             {"name":"pears","qty":37},
             {"name":"bananas","qty":27},
             {"name":"apples","qty":3}
-         ], 20),
+         ],),
          [
             {"name":"pears","qty":37},
             {"name":"bananas","qty":27}
@@ -18,7 +18,7 @@
        {"name":"pears","qty":39},
        {"name":"bananas","qty":29},
        {"name":"apples","qty":3}
-    ], 20),
+    ],),
     [
        {"name":"pears","qty":39},
        {"name":"bananas","qty":29}
@@ -31,7 +31,7 @@ it('takes a list of objects having 2 attributes called name and other qty and sh
        {"name":"pears","qty":38},
        {"name":"bananas","qty":28},
        {"name":"apples","qty":3}
-    ], 20),
+    ],),
     [
        {"name":"pears","qty":38},
        {"name":"bananas","qty":28}
